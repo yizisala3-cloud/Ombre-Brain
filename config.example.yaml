@@ -160,11 +160,10 @@ gateway:
   host: "0.0.0.0"
   port: 8010
   default_session_id: "main"
-  upstream_base_url: "https://api.deepseek.com/v1"
-  upstream_default_model: "deepseek-chat"
+  upstream_base_url: "https://hk.xn--vduyey89e.com/v1"
+  upstream_default_model: "[kiro量高缓]claude-opus-4-6"
   upstream_models:
-    - "deepseek-chat"
-    - "deepseek-reasoner"
+    - "[kiro量高缓]claude-opus-4-6"
   prompt_cache: ""
   head_recent_hours: 72
   recent_context_reentry_idle_hours: 24
